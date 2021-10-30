@@ -1,0 +1,132 @@
+
+
+p, label, span, select option.text-or{
+    font-family:"Nanum Gothic";
+    color:#65430A ;
+    text-align: justify !important;
+
+}
+
+p.text-center, label.text-center, span.text-center{
+    text-align: center !important;
+
+}
+
+p{
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+header a, h1,h2,h3,h4,h5,h6{
+    font-family: "Cormorant";
+    color:#65430A;
+}
+
+.border{
+    border-color: #AE915A;
+    border-radius: 15px;
+}
+
+.faq {
+
+    background-color: #AE915A;
+    color:white
+}
+
+.faq p, .faq h3, .faq h2       {
+
+    color:white
+}
+
+button.faq {
+
+    background-color:white;
+    color:#AE915A;
+
+}
+
+ button.or{
+
+    background-color:#AE915A;
+    color:white;
+
+}
+
+.sub-menu :hover{
+
+background-color:#AE915A;
+
+}
+
+div.text-center p{
+    text-align: center;
+}
+
+h1.titre{
+    border-image:url("../images/griffe1.jpg");
+    border-width: 0 0 20px 0;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+
+  .fonta{
+      color:#AE915A;
+  }
+
+    .adresse p{
+        text-align :left;
+    }
+
+
+  @media screen and (max-width: 640px) {
+    p, label {
+      text-align: left;
+    }
+  }
+
+
+
+
+  @media print{
+    body {
+        width: auto!important;
+        margin: auto!important;
+        font-family: serif;
+        font-size: 12pt;
+        background-color: #fff!important;
+        color: #000!important;
+      }
+      p, h1, h2, h3, h4, h5, h6, blockquote, ul, ol {
+        color: #000!important;
+        margin: auto!important;
+      }
+      .print {
+        display: block; /* affichage des éléments de classe print */
+      }
+      p, blockquote {
+        orphans: 3; /* pas de ligne seule en bas */
+        widows: 3; /* pas de ligne seule en haut */
+      }
+      blockquote, ul, ol {
+        page-break-inside: avoid; /* pas de coupure dans ces élements */
+      }
+      h1 {
+        page-break-before: always; /* chaque titre commence sur une nouvelle page */
+      }
+      h1, h2, h3, caption {
+        page-break-after: avoid; /* pas de saut après ces éléments */
+      }
+      a {
+        color: #000!important;
+        text-decoration: underline!important;
+      }
+      a[href]:after {
+        content: " (" attr(href) ")"; /* affichage des URL des liens */
+      }
+      
+   }
+   
