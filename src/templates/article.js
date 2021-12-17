@@ -72,7 +72,11 @@ const ProductPage = ({ data })  => (
 <section className=" w-10/12 md:w-8/12 border p-4 md:p-12 m-auto ">
     <h2 className="mb-5 text-3xl"> Description </h2>
     <div className="text-sm mb-5" dangerouslySetInnerHTML={{ __html: data.datoCmsBoutique.description }} />
-
+    <h3 className="mb-5 text-2xl"> Livraisons</h3>
+  <p className="text-sm"> les commandes sont traitées dans les 48h suivants l'achat sur le site.
+      Une fois réceptionné par le service de livraison, le délai de livraison est de 3 jours ouvrables.
+      le retrait en atelier peut se faire 24h après la vente par rendez-vous.
+  </p>
 </section>
   </Layout>
   
