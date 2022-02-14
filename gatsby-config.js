@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Couleurs de femmes`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `Anthony Englebert`,
+    description: `Donner naissance a été pour moi synonyme de chamboulement, tant physique que moral. C'est pourquoi je sais aujourd'hui qu'il est impératif de prendre soin de soi. Comment? En offrant du temps et de l'attention à la femme en nous, 
+    à celle qui a tendance à s'effacer pour laisser la place à la maman que nous devenons.`,
+    author: `Couleurs de femmes`,
     language:"fr",
     siteUrl: `https://couleursdefemmes.be`,
   },

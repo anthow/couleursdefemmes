@@ -92,7 +92,6 @@ export const query = graphql`
       allDatoCmsBoutique(filter: {collaboration: {eq: true}}){
       edges {
         node {
-          couleursTissuUni
           description
           id
           nomDuProduit

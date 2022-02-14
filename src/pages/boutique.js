@@ -89,7 +89,6 @@ export const query = graphql`
     allDatoCmsBoutique {
       edges {
         node {
-          couleursTissuUni
           description
           id
           nomDuProduit
