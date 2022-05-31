@@ -2,6 +2,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import Logo from "../../components/logo"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const NavbarLinks = () => {
   return (
@@ -48,7 +50,8 @@ const NavbarLinks = () => {
             Contact
           </Link>
           </li>
-     
+     <li> <button className=" flex items-center align-center m-auto md:hidden snipcart-checkout"> <FontAwesomeIcon icon={faShoppingCart} size="1x" className=" m-auto fonta mr-2" />
+         <p> mon panier</p></button></li>
       </ul>
 
     </div>
