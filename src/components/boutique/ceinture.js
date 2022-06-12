@@ -32,7 +32,7 @@ const Ceinture = () => (
     render={data => 
     <section id="ceinture" className="w-10/12 m-auto flex flex-col justify-center ">
     <h1 className=" titre text-4xl mb-10"> Les Ceintures</h1>
-    <p>victime de leur succès, les ceintures sont en cours de réasort , 
+    <p className="hidden">victime de leur succès, les ceintures sont en cours de réasort , 
   n'hésitez pas à prendre contact avec moi pour votre commande.</p>
     <div className="flex flex-col md: mb-20 md:grid md:grid-cols-3 m-auto md:gap-y-10 md:gap-x-16 ">
       {data.allDatoCmsBoutique.edges.map(({ node }) => {
