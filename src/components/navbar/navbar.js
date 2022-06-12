@@ -26,6 +26,7 @@ const Navigation = styled.nav`
     left: 0;
     width:100%;
     padding-left:10px;
+    z-index:999;
 
   }
 `
@@ -96,7 +97,7 @@ const Navbar = ({ data }) => {
   const [navbarOpen, setNavbarOpen] = useState(false)
 
   return (
-    <Navigation classname="items-center align-center">
+    <Navigation classname="items-center z-50 align-center">
       <div classname=" ">
       <Link to="/">
         <h2 className=" md:hidden text-xl my-2 "> Couleurs de femmes </h2>

@@ -1,4 +1,6 @@
-
+.dropdown:hover .dropdown-menu {
+  display: block
+}
 
 p, label, span, select option.text-or{
     font-family:"Nanum Gothic";
@@ -80,6 +82,16 @@ h1.titre{
     .adresse p{
         text-align :left;
     }
+
+
+input{border: 1px  #AE915A;
+  border-style: solid;}
+
+  .dropdown:hover .dropdown-menu {
+    display: block
+}
+
+
 
 
   @media screen and (max-width: 640px) {

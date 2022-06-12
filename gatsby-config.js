@@ -16,10 +16,22 @@ module.exports = {
     'gatsby-plugin-minify', 
     `gatsby-plugin-netlify`,
     `gatsby-plugin-sitemap`,
-    'gatsby-plugin-webpack-bundle-analyzer',
     `gatsby-plugin-preload-fonts`,
     'gatsby-plugin-robots-txt',
 
+    {
+      resolve: "gatsby-theme-auth0",
+      options: {
+        domain: "liono.eu.auth0.com",
+        clientID: "d72h7Tw2HfixaWOGwJPEKrNN0HrSJYrG",
+        redirectUri: "http://localhost:8000/callback",
+        // audience: process.env.AUTH0_AUDIENCE, // Optional
+        // responseType: process.env.AUTH0_RESPONSE_TYPE, // Optional
+        // scope: process.env.AUTH0_SCOPE, // Optional
+        // callbackPath: "/auth/callback", // Optional
+      },
+    },
+ 
 {
 
     resolve: 'gatsby-plugin-html-attributes',
@@ -28,12 +40,6 @@ module.exports = {
     }
   },
 
-  {
-    resolve: 'gatsby-plugin-html-attributes',
-    options: {
-      lang: 'fr'
-    }
-  },
 
   {
     resolve: `gatsby-plugin-snipcart-advanced`,
