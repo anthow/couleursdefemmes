@@ -60,16 +60,14 @@
   "license": "0BSD",
   "scripts": {
  
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "preload-fonts": "gatsby-preload-fonts",
-    "start": "gatsby develop -p 1234 -H 0.0.0.0",
-		"publish": "npm run _clean && npm run _build && npm run _encrypt && npm run _envDeploy",
-		"//": "========= PRIVATE SCRIPTS =========",
-		"_clean": "gatsby clean",
-		"_build": "gatsby build",
-		"_encrypt": "npx staticrypt   public/professionnels/boutique/index.html P@55W0RD -o public/professionnels/boutique/index.html",
-		"_deploy": "npx netlify-cli deploy --dir=public --prod",
-		"_envDeploy": "NETLIFY_SITE_ID=abc-defg-hijk-lmnop NETLIFY_AUTH_TOKEN=abcdefg0123456789 bash -c 'npm run _deploy'"
+    "preload-fonts": "gatsby-preload-fonts"
   },
   "repository": {
     "type": "git",
