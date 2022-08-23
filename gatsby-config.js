@@ -105,7 +105,7 @@ module.exports = {
 
 
 
-    {
+    /*{
       resolve: 'gatsby-plugin-matomo',
       options: {
         siteId: '4',
@@ -113,7 +113,7 @@ module.exports = {
         siteUrl: 'https://couleursdefemmes.be/'
       }
     },
-
+*/
 
 
     {
