@@ -20,6 +20,7 @@
      <>
          <main>{children}</main>
          <Footer />
+         <script async defer src="https://scripts.withcabin.com/hello.js%22%3E"> </script>
      </>
    )
  }
